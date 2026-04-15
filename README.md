@@ -1,0 +1,2 @@
+# AverageArray
+java program practise
