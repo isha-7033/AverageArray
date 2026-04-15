@@ -1,0 +1,16 @@
+public class CheckElement {
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3, 4, 5};
+        int key = 4;
+
+        for(int x : arr) {
+            if(x == key) {
+                System.out.println("Element exists");
+                return;
+            }
+        }
+
+        System.out.println("Element does not exist");
+    }
+}
