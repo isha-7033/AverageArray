@@ -1,0 +1,17 @@
+public class CountGreater {
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3, 4, 5};
+        int x = 3;
+
+        int count = 0;
+
+        for(int val : arr) {
+            if(val > x) {
+                count++;
+            }
+        }
+
+        System.out.println("Count = " + count);
+    }
+}
